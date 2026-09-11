@@ -1,12 +1,23 @@
-[README.txt](https://github.com/user-attachments/files/32133923/README.txt)
-PROYECTO BINGO - JAVA / VISUAL STUDIO CODE
+# Proyecto Bingo - Java / Visual Studio Code
 
-1. Abre esta carpeta en Visual Studio Code.
-2. Necesitas tener instalado un JDK de Java.
-3. Los archivos están dentro de src:
-   - Bingo.java
-   - Tabla.java
-   - Cantor.java
-4. Ejecuta Bingo.java.
+Proyecto de Bingo desarrollado en Java usando Swing y pensado para ejecutarse desde Visual Studio Code.
 
-No requiere librerías externas: usa Java Swing.
+## Archivos
+- `src/Bingo.java` - interfaz gráfica y control del juego.
+- `src/Tabla.java` - generación y validación de las tablas.
+- `src/Cantor.java` - generación y control de las balotas.
+
+## Ejecutar
+1. Abre la carpeta del proyecto en Visual Studio Code.
+2. Verifica que tengas instalado un JDK de Java.
+3. Abre `src/Bingo.java`.
+4. Ejecuta el método `main`.
+
+También puedes compilar desde una terminal ubicada en la carpeta del proyecto:
+
+```bash
+javac -d out src/*.java
+java -cp out Bingo
+```
+
+No requiere librerías externas; utiliza Java Swing.
