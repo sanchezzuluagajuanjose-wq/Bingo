@@ -1,0 +1,7 @@
+# Compilados de Java
+*.class
+out/
+bin/
+
+# Configuración local de VS Code
+.vscode/
